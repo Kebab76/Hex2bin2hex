@@ -69,7 +69,7 @@ public class Hex2bin2hex extends JFrame{
      public static int res1(String binary) throws IOException{
          
           
-          try(FileWriter writer = new FileWriter("result.bin", false))
+          try(FileWriter writer = new FileWriter("result.bin", false)) // запись результата
         {
            
             
@@ -115,7 +115,7 @@ public class Hex2bin2hex extends JFrame{
     
     public static int res2(String s) throws IOException{
           
-          try(FileWriter writer1 = new FileWriter("result1.hex", false))
+          try(FileWriter writer1 = new FileWriter("result1.hex", false)) // запись результата
         {
            
             
